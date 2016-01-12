@@ -22,14 +22,10 @@ local PANEL = {}
 
 function PANEL:Init()
    self.name = "Unnamed"
-
    self.color = COLOR_WHITE
-
    self.rows = {}
    self.rowcount = 0
-
    self.rows_sorted = {}
-
    self.group = "spec"
 end
 
